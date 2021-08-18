@@ -1,0 +1,675 @@
+        interface "ISIS-0"
+            address 100.0.0.1/30
+            port 2/2/5:1000.*
+            no shutdown
+        exit
+        interface "ISIS-1"
+            address 100.0.1.1/30
+            port 2/2/5:1001.*
+            no shutdown
+        exit
+        interface "ISIS-2"
+            address 100.0.2.1/30
+            port 2/2/5:1002.*
+            no shutdown
+        exit
+        interface "ISIS-3"
+            address 100.0.3.1/30
+            port 2/2/5:1003.*
+            no shutdown
+        exit
+        interface "ISIS-4"
+            address 100.0.4.1/30      
+            port 2/2/5:1004.*
+            no shutdown
+        exit
+        interface "ISIS-5"
+            address 100.0.5.1/30
+            port 2/2/5:1005.*
+            no shutdown
+        exit
+        interface "ISIS-6"
+            address 100.0.6.1/30
+            port 2/2/5:1006.*
+            no shutdown
+        exit
+        interface "ISIS-7"
+            address 100.0.7.1/30
+            port 2/2/5:1007.*
+            no shutdown
+        exit
+        interface "ISIS-8"
+            address 100.0.8.1/30
+            port 2/2/5:1008.*
+            no shutdown
+        exit
+        interface "ISIS-9"
+            address 100.0.255.1/30
+            port 2/2/5:1009.*         
+            no shutdown
+        interface "ISIS-10"
+            address 100.0.10.1/30
+            port 2/2/5:1010.*
+            no shutdown
+        exit
+        interface "ISIS-11"
+            address 100.0.11.1/30
+            port 2/2/5:1011.*
+            no shutdown
+        exit
+        interface "ISIS-12"
+            address 100.0.12.1/30
+            port 2/2/5:1012.*
+            no shutdown
+        exit
+        interface "ISIS-13"
+            address 100.0.13.1/30      
+            port 2/2/5:1013.*
+            no shutdown
+        exit
+        interface "ISIS-14"
+            address 100.0.14.1/30
+            port 2/2/5:1014.*
+            no shutdown
+        exit
+        interface "ISIS-15"
+            address 100.0.15.1/30
+            port 2/2/5:1015.*
+            no shutdown
+        exit
+        interface "ISIS-16"
+            address 100.0.16.1/30
+            port 2/2/5:1016.*
+            no shutdown
+        exit
+        interface "ISIS-17"
+            address 100.0.17.1/30
+            port 2/2/5:1017.*
+            no shutdown
+        exit
+        interface "ISIS-18"
+            address 100.0.18.1/30
+            port 2/2/5:1018.*         
+            no shutdown
+        interface "ISIS-19"
+            address 100.0.19.1/30
+            port 2/2/5:1019.*
+            no shutdown
+        exit
+        interface "ISIS-20"
+            address 100.0.20.1/30
+            port 2/2/5:1020.*
+            no shutdown
+        exit
+        interface "ISIS-21"
+            address 100.0.21.1/30
+            port 2/2/5:1021.*
+            no shutdown
+        exit
+        interface "ISIS-22"
+            address 100.0.22.1/30
+            port 2/2/5:1022.*
+            no shutdown
+        exit
+        interface "ISIS-23"
+            address 100.0.23.1/30      
+            port 2/2/5:1023.*
+            no shutdown
+        exit
+        interface "ISIS-24"
+            address 100.0.24.1/30
+            port 2/2/5:1024.*
+            no shutdown
+        exit
+        interface "ISIS-25"
+            address 100.0.25.1/30
+            port 2/2/5:1025.*
+            no shutdown
+        exit
+        interface "ISIS-26"
+            address 100.0.26.1/30
+            port 2/2/5:1026.*
+            no shutdown
+        exit
+        interface "ISIS-27"
+            address 100.0.27.1/30
+            port 2/2/5:1027.*
+            no shutdown
+        exit
+        interface "ISIS-28"
+            address 100.0.28.1/30
+            port 2/2/5:1028.*         
+            no shutdown
+        interface "ISIS-29"
+            address 100.0.29.1/30
+            port 2/2/5:1029.*
+            no shutdown
+        exit
+        interface "ISIS-30"
+            address 100.0.30.1/30
+            port 2/2/5:1030.*
+            no shutdown
+        exit
+        interface "ISIS-31"
+            address 100.0.31.1/30
+            port 2/2/5:1031.*
+            no shutdown
+        exit
+
+        isis 0
+            system-id 0000.0000.0001
+            level-capability level-2
+            area-id 49.0000
+            level 2
+                wide-metrics-only
+            exit
+            interface "ISIS-0"
+                interface-type point-to-point
+                no shutdown
+            exit
+        exit
+        isis 1
+            system-id 0000.0000.0001
+            level-capability level-2
+            area-id 49.0000
+            level 2
+                wide-metrics-only
+            exit
+            interface "ISIS-1"
+                interface-type point-to-point
+                no shutdown
+            exit
+        exit
+        isis 2
+            system-id 0000.0000.0001
+            level-capability level-2
+            area-id 49.0000
+            level 2
+                wide-metrics-only
+            exit
+            interface "ISIS-2"
+                interface-type point-to-point
+                no shutdown
+            exit
+        exit
+        isis 3
+            system-id 0000.0000.0001
+            level-capability level-2
+            area-id 49.0000
+            level 2
+                wide-metrics-only
+            exit
+            interface "ISIS-3"
+                interface-type point-to-point
+                no shutdown
+            exit
+        exit
+        isis 4
+            system-id 0000.0000.0001
+            level-capability level-2
+            area-id 49.0000
+            level 2
+                wide-metrics-only
+            exit
+            interface "ISIS-4"
+                interface-type point-to-point
+                no shutdown
+            exit
+        exit
+        isis 5
+            system-id 0000.0000.0001
+            level-capability level-2
+            area-id 49.0000
+            level 2
+                wide-metrics-only
+            exit
+            interface "ISIS-5"
+                interface-type point-to-point
+                no shutdown
+            exit
+        exit
+        isis 6
+            system-id 0000.0000.0001
+            level-capability level-2
+            area-id 49.0000
+            level 2
+                wide-metrics-only
+            exit
+            interface "ISIS-6"
+                interface-type point-to-point
+                no shutdown
+            exit
+        exit
+        isis 7
+            system-id 0000.0000.0001
+            level-capability level-2
+            area-id 49.0000
+            level 2
+                wide-metrics-only
+            exit
+            interface "ISIS-7"
+                interface-type point-to-point
+                no shutdown
+            exit
+        exit
+        isis 8
+            system-id 0000.0000.0001
+            level-capability level-2
+            area-id 49.0000
+            level 2
+                wide-metrics-only
+            exit
+            interface "ISIS-8"
+                interface-type point-to-point
+                no shutdown
+            exit
+        exit
+        isis 9
+            system-id 0000.0000.0001
+            level-capability level-2
+            area-id 49.0000
+            level 2
+                wide-metrics-only
+            exit
+            interface "ISIS-9"
+                interface-type point-to-point
+                no shutdown
+            exit
+        exit
+        isis 10
+            system-id 0000.0000.0001
+            level-capability level-2
+            area-id 49.0000
+            level 2
+                wide-metrics-only
+            exit
+            interface "ISIS-10"
+                interface-type point-to-point
+                no shutdown
+            exit
+        exit
+        isis 11
+            system-id 0000.0000.0001
+            level-capability level-2
+            area-id 49.0000
+            level 2
+                wide-metrics-only
+            exit
+            interface "ISIS-11"
+                interface-type point-to-point
+                no shutdown
+            exit
+        exit
+        isis 12
+            system-id 0000.0000.0001
+            level-capability level-2
+            area-id 49.0000
+            level 2
+                wide-metrics-only
+            exit
+            interface "ISIS-12"
+                interface-type point-to-point
+                no shutdown
+            exit
+        exit
+        isis 13
+            system-id 0000.0000.0001
+            level-capability level-2
+            area-id 49.0000
+            level 2
+                wide-metrics-only
+            exit
+            interface "ISIS-13"
+                interface-type point-to-point
+                no shutdown
+            exit
+        exit
+        isis 14
+            system-id 0000.0000.0001
+            level-capability level-2
+            area-id 49.0000
+            level 2
+                wide-metrics-only
+            exit
+            interface "ISIS-14"
+                interface-type point-to-point
+                no shutdown
+            exit
+        exit
+        isis 15
+            system-id 0000.0000.0001
+            level-capability level-2
+            area-id 49.0000
+            level 2
+                wide-metrics-only
+            exit
+            interface "ISIS-15"
+                interface-type point-to-point
+                no shutdown
+            exit
+        exit
+        isis 16
+            system-id 0000.0000.0001
+            level-capability level-2
+            area-id 49.0000
+            level 2
+                wide-metrics-only
+            exit
+            interface "ISIS-16"
+                interface-type point-to-point
+                no shutdown
+            exit
+        exit
+        isis 17
+            system-id 0000.0000.0001
+            level-capability level-2
+            area-id 49.0000
+            level 2
+                wide-metrics-only
+            exit
+            interface "ISIS-17"
+                interface-type point-to-point
+                no shutdown
+            exit
+        exit
+        isis 18
+            system-id 0000.0000.0001
+            level-capability level-2
+            area-id 49.0000
+            level 2
+                wide-metrics-only
+            exit
+            interface "ISIS-18"
+                interface-type point-to-point
+                no shutdown
+            exit
+        exit
+        isis 19
+            system-id 0000.0000.0001
+            level-capability level-2
+            area-id 49.0000
+            level 2
+                wide-metrics-only
+            exit
+            interface "ISIS-19"
+                interface-type point-to-point
+                no shutdown
+            exit
+        exit
+        isis 20
+            system-id 0000.0000.0001
+            level-capability level-2
+            area-id 49.0000
+            level 2
+                wide-metrics-only
+            exit
+            interface "ISIS-20"
+                interface-type point-to-point
+                no shutdown
+            exit
+        exit
+        isis 21
+            system-id 0000.0000.0001
+            level-capability level-2
+            area-id 49.0000
+            level 2
+                wide-metrics-only
+            exit
+            interface "ISIS-21"
+                interface-type point-to-point
+                no shutdown
+            exit
+        exit
+        isis 22
+            system-id 0000.0000.0001
+            level-capability level-2
+            area-id 49.0000
+            level 2
+                wide-metrics-only
+            exit
+            interface "ISIS-22"
+                interface-type point-to-point
+                no shutdown
+            exit
+        exit
+        isis 23
+            system-id 0000.0000.0001
+            level-capability level-2
+            area-id 49.0000
+            level 2
+                wide-metrics-only
+            exit
+            interface "ISIS-23"
+                interface-type point-to-point
+                no shutdown
+            exit
+        exit
+        isis 24
+            system-id 0000.0000.0001
+            level-capability level-2
+            area-id 49.0000
+            level 2
+                wide-metrics-only
+            exit
+            interface "ISIS-24"
+                interface-type point-to-point
+                no shutdown
+            exit
+        exit
+        isis 25
+            system-id 0000.0000.0001
+            level-capability level-2
+            area-id 49.0000
+            level 2
+                wide-metrics-only
+            exit
+            interface "ISIS-25"
+                interface-type point-to-point
+                no shutdown
+            exit
+        exit
+        isis 26
+            system-id 0000.0000.0001
+            level-capability level-2
+            area-id 49.0000
+            level 2
+                wide-metrics-only
+            exit
+            interface "ISIS-26"
+                interface-type point-to-point
+                no shutdown
+            exit
+        exit
+        isis 27
+            system-id 0000.0000.0001
+            level-capability level-2
+            area-id 49.0000
+            level 2
+                wide-metrics-only
+            exit
+            interface "ISIS-27"
+                interface-type point-to-point
+                no shutdown
+            exit
+        exit
+        isis 28
+            system-id 0000.0000.0001
+            level-capability level-2
+            area-id 49.0000
+            level 2
+                wide-metrics-only
+            exit
+            interface "ISIS-28"
+                interface-type point-to-point
+                no shutdown
+            exit
+        exit
+        isis 29
+            system-id 0000.0000.0001
+            level-capability level-2
+            area-id 49.0000
+            level 2
+                wide-metrics-only
+            exit
+            interface "ISIS-29"
+                interface-type point-to-point
+                no shutdown
+            exit
+        exit
+        isis 30
+            system-id 0000.0000.0001
+            level-capability level-2
+            area-id 49.0000
+            level 2
+                wide-metrics-only
+            exit
+            interface "ISIS-30"
+                interface-type point-to-point
+                no shutdown
+            exit
+        exit
+        isis 31
+            system-id 0000.0000.0001
+            level-capability level-2
+            area-id 49.0000
+            level 2
+                wide-metrics-only
+            exit
+            interface "ISIS-31"
+                interface-type point-to-point
+                no shutdown
+            exit
+        exit
+        no shutdown
+
+0 - 4094
+
+        vprn {X} name "{X}" customer 1 create
+            route-distinguisher auto-rd
+            interface "ISIS-0" create
+                address 100.0.0.1/24
+                sap 2/2/5:1032.* create
+                exit
+            exit
+
+            ...
+
+            interface "ISIS-31" create
+                address 100.0.31.1/24
+                sap 2/2/5:1063.* create
+                exit
+            exit
+            isis 0
+                system-id 0000.0000.0001
+                level-capability level-2
+                area-id 49.0000
+                level 2
+                    wide-metrics-only
+                exit
+                interface "ISIS-0"
+                    interface-type point-to-point
+                    no shutdown
+                exit
+                no shutdown
+            exit
+            isis 1
+                system-id 0000.0000.0001
+                level-capability level-2
+                area-id 49.0000
+                level 2
+                    wide-metrics-only
+                exit
+                interface "ISIS-1"
+                    interface-type point-to-point
+                    no shutdown
+                exit
+                no shutdown
+            exit
+            isis 30
+                system-id 0000.0000.0001
+                level-capability level-2
+                area-id 49.0000
+                level 2
+                    wide-metrics-only
+                exit
+                interface "ISIS-30"
+                    interface-type point-to-point
+                    no shutdown
+                exit
+                no shutdown
+            exit
+            isis 31
+            system-id 0000.0000.0001
+            level-capability level-2
+            area-id 49.0000
+            level 2
+                wide-metrics-only
+            exit
+            interface "ISIS-31"
+                interface-type point-to-point
+                no shutdown
+            exit
+            no shutdown
+        exit
+
+
+0-31
+        interface "ISIS-{X}"
+            address 100.0.{X}.1/30
+            port 2/2/5:10{Y}.*
+            no shutdown
+        exit
+        isis {X}
+            system-id 0000.0000.0001
+            level-capability level-2
+            area-id 49.0000
+            level 2
+                wide-metrics-only
+            exit
+            interface "ISIS-{X}"
+                interface-type point-to-point
+                no shutdown
+            exit
+        exit
+0-31
+
+ vprn 10{Z} name "10{Z}" customer 1 create
+            route-distinguisher auto-rd
+            interface "ISIS-{X}" create
+                address 100.0.{X}.1/24
+                sap 2/2/5:10{Y}.* create
+                exit
+            exit
+            interface "ISIS-1" create
+                address 100.0.1.1/24
+                sap 2/2/5:1033.* create
+                exit
+            exit
+            isis 0
+                system-id 0000.0000.0001
+                level-capability level-2
+                area-id 49.0000
+                level 2
+                    wide-metrics-only
+                exit
+                interface "ISIS-0"
+                    interface-type point-to-point
+                    no shutdown
+                exit
+                no shutdown
+            exit
+            isis 1
+                system-id 0000.0000.0001
+                level-capability level-2
+                area-id 49.0000
+                level 2
+                    wide-metrics-only
+                exit
+                interface "ISIS-1"
+                    interface-type point-to-point
+                    no shutdown
+                exit
+                no shutdown
+            exit
+            no shutdown
+        exit
